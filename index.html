@@ -426,50 +426,51 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <div class="modal-container">
-                    <h2 class="title">Модальне вікно</h2>
                     <form class="main-form" name="" novalidate autocomplete="on">
-                        <h3 class="modal-title title">Оставьте свои данные, мы вам перезвоним</h3>
-                        <div class="form-field">
-                            <label class="form-field-label" for="user-name">Имя</label>
-                            <div class="form-field-position">
-                                <input class="form-field-input" id="user-name" type="text" name="name" required minlength="3" maxlength="12">
-                                <svg class="form-field-icon" width="18" height="18">
-                                    <use href="./images/symbol-defs_hw6.svg#icon-Vector-person"></use>
-                                </svg>
-                            </div>
-                            
-                        </div>
-                        <div class="form-field">
-                                <label class="form-field-label" for="user-telephone">Телефон</label>
-                            <div class="form-field-position">
-                                <input class="form-field-input" id="user-telephone" type="tel" name="phone_number" required minlength="10" maxlength="15">
-                                <svg class="form-field-icon" width="18" height="18">
-                                    <use href="./images/symbol-defs_hw6.svg#icon-Vector-phone"></use>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="form-field">
-                                <label class="form-field-label" for="user-email">Почта</label>
-                            <div class="form-field-position">
-                                <input class="form-field-input" id="user-email" type="email" name="email" required>
-                                <svg class="form-field-icon" width="18" height="18">
-                                    <use href="./images/symbol-defs_hw6.svg#icon-Vector-letter"></use>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="form-field">
-                            <label class="form-field-label" for="user-comment">Комментарий</label>
-                            <textarea class="form-field-input form-field-input-textarea" name="feedback" rows="5" placeholder="Введите текст"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <input class="form-field-checkbox" id="terms-condition" type="checkbox" name="terms-condition">
-                            <label for="terms-condition">Соглашаюсь с рассылкой и принимаю <a href="" class="Doc">Условия договора</a><span></label>
-                        </div>
-                        <div class="form-field-click"></div>
-                        <button class="form-field-button" type="submit">Отправить</button>
-                        </div>
                         
+                            <h2 class="modal-title title">Оставьте свои данные, мы вам перезвоним</h2>
+
+                            <div class="form-field">
+                                <label class="form-field-label" for="user-name">Имя</label>
+                                <div class="form-field-position">
+                                    <input class="form-field-input" id="user-name" type="text" name="name" required minlength="3" maxlength="12">
+                                    <svg class="form-field-icon" width="18" height="18">
+                                        <use href="./images/symbol-defs_hw6.svg#icon-Vector-person"></use>
+                                    </svg>
+                                </div>
+                                
+                            </div>
+                            <div class="form-field">
+                                    <label class="form-field-label" for="user-telephone">Телефон</label>
+                                <div class="form-field-position">
+                                    <input class="form-field-input" id="user-telephone" type="tel" name="phone_number" required minlength="10" maxlength="15">
+                                    <svg class="form-field-icon" width="18" height="18">
+                                        <use href="./images/symbol-defs_hw6.svg#icon-Vector-phone"></use>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="form-field">
+                                    <label class="form-field-label" for="user-email">Почта</label>
+                                <div class="form-field-position">
+                                    <input class="form-field-input" id="user-email" type="email" name="email" required>
+                                    <svg class="form-field-icon" width="15" height="12">
+                                        <use href="./images/symbol-defs_hw6.svg#icon-Vector-letter"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="form-field form-field-comment">
+                                <label class="form-field-label" for="user-comment">Комментарий</label>
+                                <textarea class="form-field-input-textarea" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                            </div>    
                         
+                            <div class="form-field terms-condition">
+                                <input class="form-field-checkbox" id="terms-condition" type="checkbox" name="terms-condition">
+                                <label class="form-field-checkbox-label" for="terms-condition">Соглашаюсь с рассылкой и принимаю <a href="#" class="Doc">Условия договора</a></label>
+                            </div>
+                            <div class="form-field-click">
+                                <button class="form-field-button" type="submit">Отправить</button>
+                            </div> 
                     </form>
             <button type="button" class="btn" data-modal-close>
                 
