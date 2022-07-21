@@ -765,7 +765,14 @@ p {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2F303A;
-    cursor: pointer;
+
+
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    padding: 15px 16px;
     
 }
 .footer-form-input::placeholder {
@@ -789,6 +796,7 @@ p {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     
 }
 
@@ -983,7 +991,7 @@ p {
     top: 8px;
     background-color: var(--primary-white-color);
     border-radius: 50%;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     fill: currentColor;
@@ -1177,6 +1185,7 @@ p {
     letter-spacing: 0.03em;
 
     color: #757575; 
+    display: flex;
 
 }
 
@@ -1184,6 +1193,7 @@ p {
     text-decoration-line: underline;
     color: #2196F3;
     outline: none;
+    margin-left: 2px;
 
 }
 /* ghkgfjkgjkl */
