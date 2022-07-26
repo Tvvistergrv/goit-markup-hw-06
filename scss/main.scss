@@ -1,0 +1,411 @@
+@import './utils/normalize';
+@import './utils/variable';
+@import './utils/base';
+@import './utils/hidden';
+
+@import './components/button';
+@import './components/title';
+@import './components/header-menu';
+@import './components/filter-sections';
+@import './components/footer-socnetworks';
+@import './components/customer-sections';
+@import './components/footer';
+@import './components/functions-sections';
+@import './components/hero-sections';
+@import './components/illustrate-sections';
+@import './components/logo-footer';
+@import './components/logo-header';
+@import './components/menu-links';
+@import './components/container';
+@import './components/works-teams-section';
+
+
+
+
+
+/* Raleway 700 */
+/* c 400 500 700 900*/
+
+/* основной цвет (темный) color: c; links header*/
+/* вторичный цвет (серый) color-adress #757575 серый*/
+/* акцент color: #2196F3; blue */
+/* подвал контакты color: rgba(255, 255, 255, 0.6);*/
+/* кнопка color: #FFFFFF; */
+
+/* цвет фона основной background: #FFFFFF; */
+/* цвет фона вторичный color hero-page #2F303A*/
+
+
+
+
+
+
+/* nav */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero */
+
+/* hero-overlay */
+
+
+/* quality */
+
+
+
+
+
+/* icon-style */
+
+
+
+
+
+/* .nav-address .item:not(:last-child) {
+    margin-right: 50px; */
+
+
+
+
+/* visual */
+
+
+    
+
+/* team */
+
+/* icon */
+
+
+
+/* clients */
+
+
+
+
+/* footer */
+
+
+
+/* footer-icon */
+
+
+
+/* footer-send */
+
+
+
+
+
+.backdrop {
+    transition: opacity 0.5s, visibility 0.5s;
+    
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 528px;
+    height: 581px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                 0px 1px 1px rgba(0, 0, 0, 0.14),
+                  0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+ 
+}
+
+.btn {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background-color: var(--primary-white-color);
+    border-radius: 50%;
+    padding: 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    fill: currentColor;
+    outline: none;
+}
+
+.btn:focus,
+.btn:hover {
+    fill: var(--accent-color);
+}
+
+.btn-icon {  
+    display: block;
+    
+
+}
+
+.modal-container {
+    width: 448px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+   
+.main-form {
+    box-sizing: border-box;
+    
+}
+
+
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    
+}
+
+.form-field-label {
+    
+
+    display: block;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
+    margin-bottom: 4px;
+    
+}
+
+.form-field-position {
+    position: relative;
+}
+
+.form-field-icon {
+    position: absolute;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    left: 11px;
+    fill: CurrentColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.form-field-input:hover + .form-field-icon,
+.form-field-input:active + .form-field-icon {
+    fill: #2196F3;
+}
+
+.form-field-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    font-family: inherit;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    padding: 12px 16px 12px 42px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.form-field-input:hover,
+.form-field-input:focus {
+    border-color: #2196F3;
+}
+
+
+.form-field-input-textarea {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    height: 120px;
+    width: 448px;
+    padding: 12px 16px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-field-input-textarea::placeholder {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.form-field-input.comment {
+    display: block;
+    height: 120px;
+    width: 100%;
+}
+
+.form-field-input-textarea:focus,
+.form-field-input-textarea:hover {
+    border-color: #2196F3;
+}
+
+.footer-form-button {
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;    
+
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;  
+}
+
+.form-field-button {
+    position: absolute;
+    
+    width: 200px;
+    height: 50px;
+    transform: translateX(+50%);
+    right: 50%;
+    color: #fff;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 4px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field-button:focus,
+.form-field-button:hover,
+.form-field-button:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #188CE8
+}
+
+
+/* checkbox */
+
+.checkbox {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+}
+
+.checkbox-input {
+    appearance: none;
+}
+
+
+.checkbox-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 16px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 9px;
+    background-color: #fff;
+    border: 2px solid rgba(33, 33, 33, 1);
+    border-radius: 4px;
+
+}
+
+.checkbox-icon {
+    opacity: 0;
+    flex-shrink: 0;
+    fill: #fff;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #2196f3;
+    border-radius: 2px;
+}
+
+.checkbox-input:checked + .checkbox-icon {
+    opacity: 1;
+}
+
+.checkbox-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #757575; 
+    display: flex;
+
+}
+
+.terms-link {
+    text-decoration-line: underline;
+    color: #2196F3;
+    outline: none;
+    margin-left: 2px;
+
+}
+/* ghkgfjkgjkl */
+
+
+
+.form-field.form-field-comment {
+    margin-bottom: 20px;
+}
+
+
+
+.form-field-click {
+    position: relative;
+    display: block;
+    height: 50px;
+    margin: 30px;
+}

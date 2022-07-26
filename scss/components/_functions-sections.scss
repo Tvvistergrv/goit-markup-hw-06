@@ -1,0 +1,50 @@
+.functions {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.quality-section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.style-quality {
+    
+    width: 1200px;
+
+    
+}
+
+.section-quality {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.quality-section .style-quality:not(:last-child) {
+    margin-right: 30px;
+}
+
+.style-quality-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 270px;
+    height: 120px;
+    background: var(--background-color-team);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.section-none {
+    display: none;
+}
+
+.message {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;    
+}
