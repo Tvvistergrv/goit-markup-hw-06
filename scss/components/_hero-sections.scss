@@ -1,33 +1,31 @@
-h1 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 30px;
-}
-
 .hero {
     /* background-color: var(--background-color-darkfone); */
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-.hero-title {
+.container__hero-title {
     box-sizing: border-box;
     text-align: center;
-    
-
 }
 
-ul {
-    list-style: none;
-}
+.hero__title {
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    font-family: inherit;
 
-h2 {
-    display: inline-block;
+    display: block;
     margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
 }
 
-.overlay {
+.hero__overlay {
     min-height: 600px;
     /* outline: 1px solid black; */
     min-width: 1600px;

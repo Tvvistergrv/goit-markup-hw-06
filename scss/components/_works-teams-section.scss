@@ -1,68 +1,53 @@
-.section-team {
-    display: flex;
-    margin: 0;
-}
-
-.section-team .item {
-    margin-right: 30px;
-    box-shadow: var(--box-shadow-card);
-}
-
-.section-team .item:nth-last-child(-n + 1){
-    margin-right: 0;
-}
-
 .works-teams {
     padding-bottom: 94px;
     padding-top: 94px;
     background-color: var(--background-color-team);
 }
 
-.our-teams {
+.container__our-teams {
     text-align: center;
-    
 }
 
-.section-list {
-    margin-bottom: 50px;
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color: var(--title-text-color);
+.card {
+    display: flex;
+    margin: 0;
 }
 
-.boxes-img {
-    display: block;
+.card__team-group {
+    margin-right: 30px;
+    box-shadow: var(--box-shadow-card);
 }
 
-.proff {
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 1.9;
+.card__team-group:nth-last-child(-n + 1){
+    margin-right: 0;
 }
 
-.item-title {
+.card-font {
     padding-top: 30px;
     padding-bottom: 16px;
 }
 
-.item-media {
-    background: var(--primary-white-color);
-        /* material shadow v1 */
-    
+.card-fone {
+    background: var(--primary-white-color);  
     box-shadow: var(--box-shadow-item-media);
     border-radius: 0px 0px 4px 4px;
 }
 
-p {
+.card__name {
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.card__proff {
+    font-size: 16px;
+    line-height: 1.9;
     display: block;
 }
 
 
 /* icon */
-.works-teams-icon {
+
+.socnetwork-icon {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -72,24 +57,18 @@ p {
     list-style: none;
 }
 
-.media-end {
-    fill: var(--icon-color);
-
-    /* outline: 1px solid teal; */
-}
-
 .media-icon {
     padding: 0px 32px 30px 32px;
 }
 
-.networks {
+.socnetwork-icon__img {
     /* outline: 1px solid black; */
     width: 20px;
     height: 20px;
      border: transparent;
 }
 
-.icon-networks {
+.socnetwork-icon__link {
     display: flex;
     justify-content: center;
     width: 44px;
@@ -105,15 +84,17 @@ p {
     /* outline: 1px solid black; */
 }
 
-.icon-networks:focus,
-.icon-networks:hover
+.socnetwork-icon__link:focus,
+.socnetwork-icon__link:hover
  {
     fill: var(--primary-white-color);
     background-color: var(--color-image-icon);
     border: none;
 }
 
-.media-end {
+.socnetwork-icon__group {
     border-radius: 50%;
-    background-color: var(--primary-white-color);    
+    background-color: var(--primary-white-color);   
+    fill: var(--icon-color);
+    /* outline: 1px solid teal; */ 
 }
